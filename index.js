@@ -307,7 +307,7 @@ async function main() {
     const margin = Math.max(screen.width - 80, 0);
     let art = "";
     if (screen.width >= threshold) {
-      art = cfonts.render('EXNUS MINER', {
+      art = cfonts.render('NT EXHAUST', {
         font: 'block',
         align: 'center',
         colors: ['cyan', 'magenta'],
@@ -318,7 +318,7 @@ async function main() {
         maxLength: screen.width - margin,
       }).string;
     } else {
-      art = cfonts.render('EXNUS MINER', {
+      art = cfonts.render('NT EXHAUST', {
         font: 'tiny',
         align: 'center',
         colors: ['cyan', 'magenta'],
